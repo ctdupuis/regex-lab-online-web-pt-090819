@@ -2,6 +2,7 @@ require 'pry'
 
 def starts_with_a_vowel?(word)
  vowel = word.scan(/\A\w[aeiou]/)
+ binding.pry
   if word == vowel
     true
   end
