@@ -1,6 +1,7 @@
 def starts_with_a_vowel?(word)
 # word.scan(/\A[aeiou]/) ? true : false
   if word.scan(/\A[aeiou]/)  
+    binding.pry
     true
   elsif word.scan(/\A[^aeiou]/)
     false
