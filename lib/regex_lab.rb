@@ -1,5 +1,8 @@
+require 'pry'
+
 def starts_with_a_vowel?(word)
  word.scan(/\A[aeiou]/) ? true : false
+ binding.pry
   # if word.scan(/\A[aeiou]/)  
   #   true
   # elsif word.scan(/\A[^aeiou]/)
